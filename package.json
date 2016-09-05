@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Perspective11/Noon/issues"
   },
-  "homepage": "https://github.com/Perspective11/Noon#readme"
+  "homepage": "https://github.com/Perspective11/Noon#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1"
+  }
 }
