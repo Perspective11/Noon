@@ -1,32 +1,35 @@
 body{
-                background: lightgray;
-                color: white;
-            }
-            .input-group{
-                width: 100%;
-            }
-            #nav{
-/*                color: black;
-                background: white;*/
-            }
-            #sidebar{
-                background: white;
-                width: 20%;
-                color: black;
-            }
-            #sidebar h5{
-                color: black;
-                padding: 15px 10px;
-                text-align: center;
-            }
-            #sidebar li{
-                list-style: none;
-                padding: 10px;
-            }
-            #sidebar li:hover{
-                background: rgba(0,0,0,0.2);
-                cursor: pointer;
-            }
+    background: lightgray;
+    color: white;
+}
+.input-group{
+    width: 100%;
+}
+#nav{
+    color: black;
+    background: white;
+}
+#sidebar{
+    background: white;
+    width: 20%;
+    color: black;
+
+}
+#sidebar ul{padding: 0;
+            margin: 0;}
+#sidebar h5{
+    color: black;
+    padding: 15px 10px;
+    text-align: center;
+}
+#sidebar li{
+    list-style: none;
+    padding: 10px;
+}
+#sidebar li:hover{
+    background: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
 .caret{/*
 height: 100%;
 margin-top: 80px;*/
