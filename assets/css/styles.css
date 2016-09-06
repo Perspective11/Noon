@@ -27,7 +27,7 @@ body{
                 background: rgba(0,0,0,0.2);
                 cursor: pointer;
             }
-.caret{
+.caret{/*
 height: 100%;
-margin-top: 80px;
+margin-top: 80px;*/
 }
