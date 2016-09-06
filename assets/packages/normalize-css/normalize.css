@@ -278,6 +278,11 @@ optgroup {
  * 1. Show the overflow in Edge.
  */
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 button,
 input { /* 1 */
   overflow: visible;
