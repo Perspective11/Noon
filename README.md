@@ -2,7 +2,7 @@
 
 A complete open source library of educational videos and tutorials in Arabic.
 
-#### Here is a detailed description of the project files, packages and structure in this repositary.
+#### Here is a detailed description of the project files, packages and structure in this repository.
 
 >Note that some of these packages and plugins are optional, you don't have to implement all of them. Just do what you can according to your needs.
 
@@ -59,7 +59,7 @@ Now all you have to do is open **CMD** in your project directory and execute thi
 ##### if you are working with a new project
 
     > npm init
-This command will initialize the project NPM The command line will ask you about the project name, description and other information, you can skip those and keep hitting enter if you want.
+This command will initialize NPM into the project. The command line will ask you about the project name, description and other information, you can skip those and keep hitting enter if you want.
 When you are done, you can see now that a ***package.json*** file is created in your project directory.
 
 ##### if you are working with this project (because ***package.json*** already exists)
@@ -103,8 +103,7 @@ When you are done, you can see now that a ***bower.json*** file is created in yo
     > bower install
 This command will take your ***bower.json*** file and scan through the package names and versions and downloads them directly into your project in the directory specified in the ***.bowerrc*** file, or if this file doesn't exist, the bower packages will be installed in a folder called ***bower_components***. However, since we already have a ***.bowerrc*** file and we have specified the directory, the packages will be installed in ***assets/packages*** directory.The list of packages installed in this project through **Bower** are:
 
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [Materialize] - A modern responsive front-end framework based on Material Design.
+* [Twitter Bootstrap] - great UI boilerplate for modern web apps.
 * [jQuery] - duh
 * [AngularJS] - HTML enhanced for web apps! : an MVC framework that is used by all major projects.
 * [Font Awesome] - The iconic font and CSS toolkit.
@@ -138,7 +137,6 @@ After installing any package, all you have to do is link it in your ***HTML*** f
    [Bower]: <https://bower.io/>
    [BrowserSync]: <https://www.browsersync.io/>
    [Moment]: <http://momentjs.com/>
-   [Materialize]: <http://materializecss.com/>
    [Font Awesome]: <http://fontawesome.io/>
    [Animate.css]: <https://daneden.github.io/animate.css/>
    [FullCalendar]: <http://mynameismatthieu.com/WOW/>
