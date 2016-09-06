@@ -14,6 +14,7 @@
     "animate.css": "^3.5.2",
     "wow": "wowjs#^1.1.2",
     "angular": "^1.5.8",
-    "materialize": "^0.97.7"
+    "materialize": "^0.97.7",
+    "normalize-css": "^4.2.0"
   }
 }
