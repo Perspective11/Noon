@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <title>Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="../assets/packages/bootstrap/dist/css/bootstrap.min.css" media="screen" title="bootstrap"/> -->
+        <link rel="stylesheet" href="../assets/packages/bootstrap/dist/css/bootstrap_paper.css" media="screen" title="bootstrap"/>
+        <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="../assets/packages/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="../assets/packages/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/packages/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div id="nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"/>
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Upload</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-bell"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-user"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row">
+                <div id="sidebar" class="col-md-2">
+                    <h5>Creator Studio</h5>
+                    <ul>
+                        <li>
+                            <span class="glyphicon glyphicon-dashboard"></span>
+                            Dashboard
+                            <span class="pull-right caret"></span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-ban-circle"></span>
+                            Video Manager<span class="pull-right center caret"></span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-dashboard"></span>
+                            Dashboard
+                            <span class="pull-right caret"></span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-ban-circle"></span>
+                            Video Manager<span class="pull-right center caret"></span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-dashboard"></span>
+                            Dashboard
+                            <span class="pull-right caret"></span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-ban-circle"></span>
+                            Video Manager<span class="pull-right center caret"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-10">
+                    <div class="container">
+                        <!-- <div class="page-header"> -->
+                        <!-- <div class="row"> -->
+                        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Panel primary</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-2 col-xs-2 col-sm-2" style="float:left;">
+                                        <div class="team-img">
+                                            <img src="../assets/img/profile/profile.png" class="img-responsive thumbnail" alt="Responsive image" width="304" height="236">
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-2 col-xs-2 col-sm-2 btn-group-vertical pull-right">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Edit</a>
+                                        <a href="#" class="btn btn-success">Delete</a>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6 col-sm-6">
+                                        <p>Shakeeb Jalal</p>
+                                        <p>Jalal@yahoo.com</p>
+                                        <p>Password</p>
+                                        <p>Admin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Panel primary</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-2 col-xs-2 col-sm-2" style="float:left;">
+                                        <div class="team-img">
+                                            <img src="../assets/img/profile/user.png" class="img-responsive thumbnail" alt="Responsive image" width="304" height="236">
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-2 col-xs-2 col-sm-2 btn-group-vertical pull-right">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Edit</a>
+                                        <a href="#" class="btn btn-success">Delete</a>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6 col-sm-6">
+                                        <p>Ahmed Ali</p>
+                                        <p>AhmedAli@gmail.com</p>
+                                        <p>Password</p>
+                                        <p>Instractor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="edit Name"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="edit Email"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="password" class="form-control" placeholder="edit Password" name="txtEmail" id="txtEmail"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="edit Rule"/>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

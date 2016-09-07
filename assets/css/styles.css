@@ -1,0 +1,44 @@
+body {
+    background: lightgray;
+    color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.input-group {
+    width: 100%;
+}
+
+#nav {
+  /*color: black;
+    background: white;*/
+}
+
+#sidebar {
+    background: white;
+    color: black;
+}
+
+#sidebar h5 {
+    color: black;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+#sidebar li {
+    list-style: none;
+    padding: 10px;
+}
+
+#sidebar li:hover {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.caret {
+    /*
+    height: 100%;
+    margin-top: 80px;*/
+}
