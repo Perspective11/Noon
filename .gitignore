@@ -110,3 +110,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+#Gulpfile
+gulpfile.js
