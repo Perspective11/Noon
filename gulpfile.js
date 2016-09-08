@@ -32,7 +32,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('watch', ['browserSync', 'css'], function(){
   gulp.watch('assets/css/*.css', ['css']);
-  // gulp.watch('**/*.html', browserSync.reload);
-  // gulp.watch('assets/js/*.js', browserSync.reload);
+  gulp.watch('**/*.html', browserSync.reload);
+  gulp.watch('assets/js/*.js', browserSync.reload);
   // Other watchers
 })
