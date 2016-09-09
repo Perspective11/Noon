@@ -36,12 +36,10 @@ A file that is created as soon as you start working with **NPM**, which will be 
 ```
 
 ### pages Folder
-This is where our different html pages will be stored. The ***admin*** folder inside contains the pages only accessible for the admin.
+This is where our different html pages will be stored.
 
 ### admin Folder
 The ***admin*** folder contains the pages that are only accessible for the admin.
-
-
 
 ### assets Folder
 This is where we store everything we need to put our project together. It consists of the following:
@@ -144,7 +142,7 @@ After installing any package, all you have to do is link it in your ***HTML*** f
    [Moment]: <http://momentjs.com/>
    [Font Awesome]: <http://fontawesome.io/>
    [Animate.css]: <https://daneden.github.io/animate.css/>
-   [FullCalendar]: <https://fullcalendar.io/>
+   [FullCalendar]: <http://mynameismatthieu.com/WOW/>
    [CKEditor]: <http://ckeditor.com/>
    [Isotope]: <http://isotope.metafizzy.co/>
    [DataTables]: <https://datatables.net/>
