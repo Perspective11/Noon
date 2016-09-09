@@ -113,3 +113,6 @@ nbdist/
 
 #Gulpfile
 gulpfile.js
+
+#Sass Folder
+assets/sass/
