@@ -38,6 +38,11 @@ A file that is created as soon as you start working with **NPM**, which will be 
 ### pages Folder
 This is where our different html pages will be stored. The ***admin*** folder inside contains the pages only accessible for the admin.
 
+### admin Folder
+The ***admin*** folder contains the pages that are only accessible for the admin.
+
+
+
 ### assets Folder
 This is where we store everything we need to put our project together. It consists of the following:
 
@@ -74,7 +79,7 @@ This command will take your ***package.json*** file and scan through the package
 
 If you want to install more packages of your own just write the following command on **CMD** in the project directory:
 
-    >npm install <package-name> --save
+    > npm install <package-name> --save
 This command will download the package from the internet and put it in the ***node_modules*** folder and add an entry in the ***package.json*** file (package name and version number)
 
 #### Other packages you can install with **NPM**:
@@ -90,7 +95,7 @@ This is a very useful tool that can download any packages for you to use like **
 #### How to start using **Bower**
 First you have to install **Bower** only with **NPM** with this command
 
-    >npm install bower --save
+    > npm install bower --save
 Now all you have to do is open **CMD** in your project directory and execute this command
 ##### if you are working with a new project
 
@@ -112,7 +117,7 @@ This command will take your ***bower.json*** file and scan through the package n
 
 If you want to install more packages of your own just write the following command on **CMD** in the project directory:
 
-    >bower install <package-name> --save
+    > bower install <package-name> --save
 This command will download the package from the internet and put it in the ***assets/packages*** folder and add an entry in the ***bower.json*** file (package name and version number)
 
 #### Other packages you can install with **Bower**:
@@ -139,7 +144,7 @@ After installing any package, all you have to do is link it in your ***HTML*** f
    [Moment]: <http://momentjs.com/>
    [Font Awesome]: <http://fontawesome.io/>
    [Animate.css]: <https://daneden.github.io/animate.css/>
-   [FullCalendar]: <http://mynameismatthieu.com/WOW/>
+   [FullCalendar]: <https://fullcalendar.io/>
    [CKEditor]: <http://ckeditor.com/>
    [Isotope]: <http://isotope.metafizzy.co/>
    [DataTables]: <https://datatables.net/>
