@@ -9,6 +9,7 @@
 
 # workspace files are user-specific
 *.sublime-workspace
+.sublime-gulp.cache
 
 # project files should be checked into the repository, unless a significant
 # proportion of contributors will probably not be using SublimeText
@@ -111,8 +112,6 @@ dist/
 nbdist/
 .nb-gradle/
 
-#Gulpfile
-gulpfile.js
 
 #Sass Folder
 assets/sass/
