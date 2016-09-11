@@ -22,7 +22,7 @@
     #main-nav .dropdown.notifications > a span {
       position: absolute;
       padding-top: 3px;
-      right: 5px;
+      left: 25px;
       top: 15px; }
 
 .sidebar.left {
@@ -35,3 +35,10 @@
   width: 270px;
   background: white;
   color: #FF9800; }
+
+.learn-content .course-info {
+  overflow: auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
