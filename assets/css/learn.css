@@ -1,3 +1,37 @@
-body div p {
-  background: yellow;
-}
+#main-nav {
+  z-index: 2;
+  border-top: solid 4px #FF9800;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  #main-nav * {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  #main-nav .dropdown.open > a {
+    background: #FF9800;
+    color: white; }
+    #main-nav .dropdown.open > a i {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
+    #main-nav .dropdown.open > a span {
+      color: white;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+  #main-nav .dropdown.open.notifications > a span {
+    background: #663d00; }
+  #main-nav .dropdown.notifications > a {
+    position: relative; }
+    #main-nav .dropdown.notifications > a span {
+      position: absolute;
+      padding-top: 3px;
+      right: 5px;
+      top: 15px; }
+
+.sidebar.left {
+  padding: 20px;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 270px;
+  background: white;
+  color: #FF9800; }

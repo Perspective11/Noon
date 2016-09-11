@@ -42,11 +42,12 @@ gulp.task('browserSync', function() {
     server: {
       baseDir: "./"
     },
+    notify: false
   })
 })
 
 gulp.task('watch', ['browserSync', 'sass'], function(){
-  gulp.watch('assets/css/*.css', ['sass']);
+  gulp.watch(['assets/sass/*.sass','assets/sass/*.scss'], ['sass']);
   gulp.watch(['*.html', 'pages/*.html','admin*.html'], browserSync.reload);
   gulp.watch('assets/js/*.js', browserSync.reload);
   // Other watchers

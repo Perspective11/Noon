@@ -13,6 +13,8 @@
     "bootstrap": "^3.3.7",
     "animate.css": "^3.5.2",
     "wow": "wowjs#^1.1.2",
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "material-design-icons": "^3.0.1",
+    "material-design-lite": "^1.2.1"
   }
 }
