@@ -1,3 +1,6 @@
+a {
+  border-radius: 3px; }
+
 #main-nav {
   z-index: 2;
   border-top: solid 4px #FF9800;
@@ -36,9 +39,20 @@
   background: white;
   color: #FF9800; }
 
-.learn-content .course-info {
-  overflow: auto;
+.learn-content .learn-container {
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 5px;
   background: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .learn-content .learn-container img {
+    margin: auto; }
+
+.learn-content .course-info {
+  margin-bottom: 40px; }
+
+.learn-content .course-tabs {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  clear: both; }
