@@ -158,7 +158,7 @@
     </div>
     <div class="learn-content container">
         <div class="course-info learn-container clearfix">
-            <div class="col-md-6">
+            <div class=" col-md-6">
                 <img src="../assets/img/gallery/08.jpg" class="thumbnail img-responsive" alt="">
             </div>
             <div class="col-md-6">
@@ -181,36 +181,161 @@
         </div>
         <div class="course-tabs learn-container clearfix">
             <ul class="nav nav-tabs nav-justified">
-                <li class=""><a href="#home" data-toggle="tab" aria-expanded="false">Home</a></li>
-                <li class="active"><a href="#profile" data-toggle="tab" aria-expanded="true">Profile</a></li>
-                <li class="disabled"><a>Disabled</a></li>
+                <li class="active"><a href="#overview" data-toggle="tab" aria-expanded="false">Overview</a></li>
+                <li class=""><a href="#lectures" data-toggle="tab" aria-expanded="true">Lectures</a></li>
+                <li class=""><a href="#discussion" data-toggle="tab" aria-expanded="true">Discussion</a></li>
+                <li class=""><a href="#announcements" data-toggle="tab" aria-expanded="true">Announcements</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                      Dropdown <span class="caret"></span>
+                      Options <span class="caret"></span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
+                    <ul class="dropdown-menu role=" menu "">
+                        <li><a>Action</a></li>
                         <li class="divider"></li>
-                        <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
+                        <li><a>Another action</a></li>
                     </ul>
                 </li>
             </ul>
-            
         </div>
         <div class=" learn-container clearfix">
-            
             <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade" id="home">
-                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                <div class="tab-pane fade active in " id="overview">
+                    <h4>Latest Activity</h4>
+                    <br>
+                    <div class="col-md-6 recent-questions">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Questions</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-4.png" class="img-responsive img-circle" alt="">
+                                        <p>Is there any way i can change bootstrap element animations</p>
+                                        <span class="label label-danger">Closed</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-2.png" class="img-responsive img-circle" alt="">
+                                        <p>Where can I find a plug-in that can be useful for this functionality. Any help is welcome</p>
+                                        <span class="label label-primary">Open</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-3.png" class="img-responsive img-circle" alt="">
+                                        <p>Need more bootstrap themes</p>
+                                        <span class="label label-success">Answered</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-5.png" class="img-responsive img-circle" alt="">
+                                        <p>Need more bootstrap themes</p>
+                                        <span class="label label-info">informative</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <button class="btn btn-primary">View All</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 recent-announcements">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Announcements</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-1.png" class="img-responsive img-circle" alt="">
+                                        <p>Is there any way i can change bootstrap element animations</p>
+                                        <span class="label label-danger">Urgent</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-1.png" class="img-responsive img-circle" alt="">
+                                        <p>Where can I find a plug-in that can be useful for this functionality. Any help is welcome</p>
+                                        <span class="label label-info">Info</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-1.png" class="img-responsive img-circle" alt="">
+                                        <p>Need more bootstrap themes</p>
+                                        <span class="label label-success">Offer</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="../assets/img/profile/avatar-1.png" class="img-responsive img-circle" alt="">
+                                        <p>Need more bootstrap themes</p>
+                                        <span class="label label-primary">Normal</span>
+                                    </li>
+                                </ul>
+                                <li class="list-group-item">
+                                    <button class="btn btn-success">View All</button>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <br>
+                    <h4>About the Course</h4>
+                    <br>
+                    <div class="col-md-6">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Course Description</h3>
+                            </div>
+                            <div class="panel-body description-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <button class="btn btn-info">View Full Description</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 alerts">
+                        <div class="alert alert-info">
+                            <span class="fa fa-lightbulb-o"></span> <strong>100</strong> Lectures, <strong>48</strong> Total Hours, and <strong>30 Minute</strong> Average Video Duration.
+                        </div>
+                        <div class="alert alert-info">
+                            <span class="fa fa-lightbulb-o"></span> <strong>3000</strong> Learners, <strong>200</strong> Total Ratings, and <strong>4.1</strong> Average Rating.
+                        </div>
+                        <div class="alert alert-info">
+                            <span class="fa fa-lightbulb-o"></span> Recommended for <strong>Beginners</strong> and <strong>Intermediates</strong> for <strong>Graphic Design</strong> Majors.
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <br>
+                    <h4>About the Instructor</h4>
+                    <br>
+                    <div class="col-md-2 instructor-img">
+                        <img src="../assets/img/profile/user.png" class="thumbnail img-responsive" alt="">
+                        
+                    </div>
+                    <div class="col-md-10 instructor-description">
+                        <h5>Marshal Mathers</h5>
+
+                        <p>A world renouned coder with a special experiance in front-end web development</p>
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <span class="fa fa-github"></span> <span class="fa fa-facebook-square"></span> <span class="fa fa-linkedin"></span> 
+                            
+                        </blockquote>
+                        <button class="btn btn-warning">View Full Profile</button>
+                        
+                    </div>
                 </div>
-                <div class="tab-pane fade active in" id="profile">
+                <div class="tab-pane fade " id="activity">
                     <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
                 </div>
-                <div class="tab-pane fade" id="dropdown1">
-                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+                <div class="tab-pane fade " id="lectures">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
                 </div>
-                <div class="tab-pane fade" id="dropdown2">
-                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+                <div class="tab-pane fade" id="discussion">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                </div>
+                <div class="tab-pane fade" id="announcements">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
                 </div>
             </div>
         </div>
