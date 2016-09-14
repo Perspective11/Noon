@@ -135,3 +135,12 @@ blockquote {
   padding: 5px;
   border-radius: 50%;
   font-size: 15px; }
+
+#lectures form div.form-group {
+  display: inline;
+  float: left;
+  width: 70%; }
+
+#lectures form button {
+  float: left;
+  margin-right: 10px; }

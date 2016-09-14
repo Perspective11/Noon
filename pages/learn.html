@@ -181,12 +181,12 @@
         </div>
         <div class="course-tabs learn-container clearfix">
             <ul class="nav nav-tabs nav-justified">
-                <li class="active"><a href="#overview" data-toggle="tab" aria-expanded="false">Overview</a></li>
-                <li class=""><a href="#lectures" data-toggle="tab" aria-expanded="true">Lectures</a></li>
-                <li class=""><a href="#discussion" data-toggle="tab" aria-expanded="true">Discussion</a></li>
-                <li class=""><a href="#announcements" data-toggle="tab" aria-expanded="true">Announcements</a></li>
+                <li class=""><a href="#overview" data-toggle="tab" aria-expanded="false">Overview</a></li>
+                <li class="active"><a href="#lectures" data-toggle="tab" aria-expanded="true">Lectures</a></li>
+                <li class=""><a href="#discussion" data-toggle="tab" aria-expanded="false">Discussion</a></li>
+                <li class=""><a href="#announcements" data-toggle="tab" aria-expanded="false">Announcements</a></li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                       Options <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu role=" menu "">
@@ -199,7 +199,7 @@
         </div>
         <div class=" learn-container clearfix">
             <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade active in " id="overview">
+                <div class="tab-pane fade  " id="overview">
                     <h4>Latest Activity</h4>
                     <br>
                     <div class="col-md-6 recent-questions">
@@ -305,31 +305,40 @@
                     <br>
                     <div class="col-md-2 instructor-img">
                         <img src="../assets/img/profile/user.png" class="thumbnail img-responsive" alt="">
-                        
                     </div>
                     <div class="col-md-10 instructor-description">
                         <h5>Marshal Mathers</h5>
-
                         <p>A world renouned coder with a special experiance in front-end web development</p>
                         <blockquote>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <span class="fa fa-github"></span> <span class="fa fa-facebook-square"></span> <span class="fa fa-linkedin"></span> 
-                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <span class="fa fa-github"></span> <span class="fa fa-facebook-square"></span> <span class="fa fa-linkedin"></span>
                         </blockquote>
                         <button class="btn btn-warning">View Full Profile</button>
-                        
                     </div>
                 </div>
-                <div class="tab-pane fade " id="activity">
-                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-                </div>
-                <div class="tab-pane fade " id="lectures">
-                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                <div class="tab-pane fade active in " id="lectures">
+                    <div class="col-md-4">
+                        <form class="" role="search">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <div class="form-group has-warning">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </form>
+                        <div class="clearfix">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 pull-left">
+                        <div class="btn-group ">
+                            <a href="#" class="btn btn-warning active">All</a>
+                            <a href="#" class="btn btn-warning">Current Session</a>
+                            <a href="#" class="btn btn-warning">Bookmarked</a>
+                            <a href="#" class="btn btn-warning">Files</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="discussion">
                     <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
