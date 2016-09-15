@@ -183,8 +183,8 @@
         <div class="course-tabs learn-container clearfix">
             <ul class="nav nav-tabs nav-justified">
                 <li class=""><a href="#overview" data-toggle="tab" aria-expanded="false">Overview</a></li>
-                <li class="active"><a href="#lectures" data-toggle="tab" aria-expanded="true">Lectures</a></li>
-                <li class=""><a href="#discussion" data-toggle="tab" aria-expanded="false">Discussion</a></li>
+                <li class=""><a href="#lectures" data-toggle="tab" aria-expanded="false">Lectures</a></li>
+                <li class="active"><a href="#discussion" data-toggle="tab" aria-expanded="true">Discussion</a></li>
                 <li class=""><a href="#announcements" data-toggle="tab" aria-expanded="false">Announcements</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -317,8 +317,8 @@
                         <button class="btn btn-warning">View Full Profile</button>
                     </div>
                 </div>
-                <div class="tab-pane fade active in " id="lectures">
-                    <div class="col-md-4">
+                <div class="tab-pane fade " id="lectures">
+                    <div class="col-sm-4">
                         <form class="" role="search">
                             <button type="submit" class="btn btn-warning">
                                 <i class="fa fa-search"></i>
@@ -330,7 +330,7 @@
                         <div class="clearfix">
                         </div>
                     </div>
-                    <div class="col-md-8 pull-left">
+                    <div class="col-sm-8 pull-left">
                         <div class="btn-group ">
                             <a href="#" class="btn btn-warning active">All</a>
                             <a href="#" class="btn btn-warning">Current Session</a>
@@ -401,21 +401,123 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade " id="discussion">
-                    <div class="col-md-8">
-                        <form class="" role="search">
-                            <button type="submit" class="btn btn-warning">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            <div class="form-group has-warning">
-                                <input type="text" class="form-control" placeholder="Search the Discussion">
+                <div class="tab-pane fade active in  " id="discussion">
+                    <div class="row">
+                        <div class="discussion-search col-sm-9">
+                            <form class="" role="search">
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                <div class="form-group has-warning">
+                                    <input type="text" class="form-control" placeholder="Search the Discussion">
+                                </div>
+                            </form>
+                            <div class="clearfix">
                             </div>
-                        </form>
-                        <div class="clearfix">
+                        </div>
+                        <div class="post-question col-sm-3 pull-left">
+                            <a href="#" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="Please search for your question in the discussion before posting a new one!">Post a Question</a>
                         </div>
                     </div>
-                    <div class="col-md-4 pull-left">
-                        <a href="#" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="Please search for your question in the discussion before posting a new one!">Post a question</a>
+                    <br>
+                    <div class="row">
+                        <div class="question-filter col-sm-7">
+                            <span>Filter by:</span>
+                            <div class="btn-group btn-group-sm ">
+                                <a href="#" class="btn btn-info  active">All</a>
+                                <a href="#" class="btn btn-info">Bookmarked</a>
+                                <a href="#" class="btn btn-info">Answered</a>
+                                <a href="#" class="btn btn-info">Unanswered</a>
+                            </div>
+                        </div>
+                        <div class="question-sort col-sm-5">
+                            <span>Sort by:</span>
+                            <div class="btn-group btn-group-sm">
+                                <a href="#" class="btn btn-primary active">Recent</a>
+                                <a href="#" class="btn btn-primary">Popular</a>
+                                <a href="#" class="btn btn-primary">Controversial</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <ul class="questions-list list-group">
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-4.png" class="img-responsive img-circle" alt="">
+                                <p>Is there any way i can change bootstrap element animations</p>
+                                <span class="label label-danger">Closed</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-2.png" class="img-responsive img-circle" alt="">
+                                <p>Where can I find a plug-in that can be useful for this functionality. Any help is welcome</p>
+                                <span class="label label-primary">Open</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-3.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-success">Answered</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-5.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-info">informative</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-4.png" class="img-responsive img-circle" alt="">
+                                <p>Is there any way i can change bootstrap element animations</p>
+                                <span class="label label-danger">Closed</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-2.png" class="img-responsive img-circle" alt="">
+                                <p>Where can I find a plug-in that can be useful for this functionality. Any help is welcome</p>
+                                <span class="label label-primary">Open</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-3.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-success">Answered</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-5.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-info">informative</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-4.png" class="img-responsive img-circle" alt="">
+                                <p>Is there any way i can change bootstrap element animations</p>
+                                <span class="label label-danger">Closed</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-2.png" class="img-responsive img-circle" alt="">
+                                <p>Where can I find a plug-in that can be useful for this functionality. Any help is welcome</p>
+                                <span class="label label-primary">Open</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-3.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-success">Answered</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="../assets/img/profile/avatar-5.png" class="img-responsive img-circle" alt="">
+                                <p>Need more bootstrap themes</p>
+                                <span class="label label-info">informative</span>
+                                <span class="comments-no"><em><strong>5 Comments</strong></em></span>
+                            </li>
+                            <li class="list-group-item">
+                                <button class="btn btn-primary">View More</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="tab-pane fade " id="announcements">
