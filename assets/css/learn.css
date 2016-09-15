@@ -8,19 +8,24 @@ a {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 hr {
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, rgba(255, 152, 0, 0.5), #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, rgba(255, 152, 0, 0.5), #f0f0f0); }
+  background-image: -o-linear-gradient(left, #f0f0f0, rgba(255, 152, 0, 0.5), #f0f0f0);
+  background-image: gradient(left, #f0f0f0, rgba(255, 152, 0, 0.5), #f0f0f0); }
 
 .panel, .dropdown-menu, .alert {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 blockquote {
   font-size: 14px; }
+
+*:focus {
+  outline: none; }
 
 #main-nav {
   z-index: 2;
@@ -34,10 +39,12 @@ blockquote {
     color: white; }
     #main-nav .dropdown.open > a i {
       -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
       transform: scale(1.2); }
     #main-nav .dropdown.open > a span {
       color: white;
       -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
       transform: scale(1.1); }
   #main-nav .dropdown.open.notifications > a span {
     background: #663d00; }
@@ -100,10 +107,16 @@ blockquote {
     #overview .recent-questions .panel-body ul.list-group li, #overview .recent-announcements .panel-body ul.list-group li {
       position: relative;
       display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
       align-items: center; }
       #overview .recent-questions .panel-body ul.list-group li *, #overview .recent-announcements .panel-body ul.list-group li * {
         margin: 0px;
@@ -114,6 +127,8 @@ blockquote {
         overflow: hidden;
         text-overflow: ellipsis;
         -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
         flex-grow: 1;
         display: inline;
         white-space: nowrap; }
@@ -144,3 +159,49 @@ blockquote {
 #lectures form button {
   float: left;
   margin-right: 10px; }
+
+#lectures #course-content div {
+  background: #F4F4F4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  #lectures #course-content div h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 35px 10px;
+    background: none; }
+    #lectures #course-content div h3 span.ui-icon {
+      display: none; }
+    #lectures #course-content div h3 small {
+      font-size: 15px;
+      color: grey; }
+  #lectures #course-content div ul.list-group {
+    border: none;
+    padding: 0px;
+    margin-bottom: 0px; }
+    #lectures #course-content div ul.list-group li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border: none; }
+      #lectures #course-content div ul.list-group li * {
+        margin: 0px;
+        margin-right: 20px; }
+      #lectures #course-content div ul.list-group li span.fa {
+        font-size: 15px;
+        color: #9C27B0; }
+      #lectures #course-content div ul.list-group li .course-title {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }

@@ -14,7 +14,7 @@ gulp.task('sass', function () {
       .pipe(plumber({ errorHandler: handleError }))
       .pipe(sass())
       .pipe(autoprefixer({
-          browsers: ['> 5%'],
+          browsers: ['> 5%', 'last 4 versions'],
           cascade: false
       }))
       .pipe(gulp.dest('assets/css'))
