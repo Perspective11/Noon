@@ -287,7 +287,7 @@ blockquote {
   margin-right: 10px;
 }
 
-#discussion .discussion-search form div.has-warning {
+#discussion .discussion-search form div.form-group {
   width: 80%;
   display: inline;
   float: left;
@@ -362,6 +362,152 @@ blockquote {
   position: absolute;
   right: 10px;
   bottom: 1px;
+}
+
+#discussion .question-thread div.post-container {
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#discussion .question-thread div.post-container a.author {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container a.author h5 {
+    font-size: 15px;
+  }
+}
+
+#discussion .question-thread div.post-container > span.label {
+  background: white;
+  color: black;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  margin-right: 30px;
+}
+
+#discussion .question-thread div.post-container img.author-img {
+  margin-right: 20px;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container img.author-img {
+    width: 50px;
+  }
+}
+
+#discussion .question-thread div.post-container div.post-markdown {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#discussion .question-thread div.post-container div.post-options {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container div.post-options {
+    top: 0;
+  }
+}
+
+#discussion .question-thread div.post-container img.post-image {
+  display: block;
+  margin: 20px 0px;
+}
+
+#discussion .question-thread div.post-container .comment-section {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item {
+  background: #F2F2F2;
+  position: relative;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item * {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item a.commenter {
+  margin-right: 20px;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item a.commenter span {
+  line-height: 1em;
+  font-size: 15px;
+  color: #424242;
+  font-weight: 600;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container .comment-section li.list-group-item a.commenter span {
+    font-size: 13px;
+  }
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item a.commenter span:hover {
+  color: #FF9800;
+  text-decoration: underline;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container .comment-section li.list-group-item img {
+    width: 40px;
+  }
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 425px) {
+  #discussion .question-thread div.post-container .comment-section li.list-group-item p {
+    clear: both;
+  }
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item a.btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item a.upvotes-no {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item span.label-warning {
+  background: white;
+  color: black;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  position: relative;
+  top: -5px;
+  margin-right: 10px;
+}
+
+#discussion .question-thread div.post-container .comment-section li.list-group-item span.label-success {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  margin-right: 30px;
+  position: relative;
+  top: -5px;
 }
 
 #announcements div.post-container {

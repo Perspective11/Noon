@@ -6,4 +6,12 @@ jQuery(document).ready(function($) {
 
     $('[data-toggle="tooltip"]').tooltip();
 
+    $('.questions-list.list-group > .list-group-item').on('click', function(event) {
+    	$(this).parent().parent().hide().siblings().hide();
+    	$('.question-thread.row').removeClass('hidden').show();
+    });
+    $('.discussion-back').on('click', function(event) {
+    	$('.question-thread.row').hide().siblings().show();
+    });
+
 });
