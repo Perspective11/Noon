@@ -12,7 +12,7 @@ var sass = require('gulp-sass');
 gulp.task('sass', function () {
     return gulp.src(['assets/sass/**/*.sass', 'assets/sass/**/*.scss', '!./assets/sass/**/_*.*'])
       .pipe(plumber({ errorHandler: handleError }))
-      .pipe(sass())
+      .pipe(sass({outputStyle: 'expanded'}))
       .pipe(autoprefixer({
           browsers: ['> 5%', 'last 4 versions'],
           cascade: false

@@ -1,8 +1,12 @@
 a.default {
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 button.default {
-  color: #FF9800; }
-  button.default:hover {
-    background: #FF9800;
-    color: white; }
+  color: #FF9800;
+}
+
+button.default:hover {
+  background: #FF9800;
+  color: white;
+}
