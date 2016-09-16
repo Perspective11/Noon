@@ -215,25 +215,37 @@ blockquote {
   margin-right: 10px;
 }
 
+#lectures #course-content * {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#lectures #course-content div.panel {
+  margin-bottom: 20px;
+}
+
 #lectures #course-content div {
-  background: #F4F4F4;
+  position: relative;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-#lectures #course-content div h3 {
-  margin-top: 20px;
-  font-size: 20px;
-  padding: 35px 10px;
+#lectures #course-content div h4 {
+  color: #5c5c5c;
+  padding: 10px 0px;
   background: none;
 }
 
-#lectures #course-content div h3 span.ui-icon {
-  display: none;
-}
-
-#lectures #course-content div h3 small {
-  font-size: 15px;
-  color: grey;
+#lectures #course-content div > a {
+  color: darkgrey;
+  margin: 0px;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
+  display: block;
 }
 
 #lectures #course-content div ul.list-group {
@@ -263,9 +275,19 @@ blockquote {
   margin-right: 20px;
 }
 
-#lectures #course-content div ul.list-group li span.fa {
-  font-size: 15px;
-  color: #FF9800;
+#lectures #course-content div ul.list-group li button {
+  border-radius: 50%;
+  padding: 7px 10px 6px 12px;
+}
+
+#lectures #course-content div ul.list-group li button:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#lectures #course-content div ul.list-group li i.fa {
+  margin: 0;
 }
 
 #lectures #course-content div ul.list-group li .course-title {
@@ -276,6 +298,11 @@ blockquote {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+#lectures #course-content div ul.list-group li span.label {
+  padding: 5px;
+  margin-right: 5px;
 }
 
 #discussion .discussion-search form {
