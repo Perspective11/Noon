@@ -1,0 +1,56 @@
+#dashboard-content > div.dashboard-container {
+  position: relative;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox i.fa {
+  position: absolute;
+  opacity: 0.3;
+  font-size: 110px;
+  bottom: -40px;
+  left: -20px;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-number {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  float: right;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-caption {
+  clear: both;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  top: -5px;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change {
+  clear: both;
+  display: block;
+  float: right;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change .stat-percentage {
+  position: relative;
+  top: -2px;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change .stat-percentage.negative {
+  background: #E51C23;
+}
+
+#dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change .stat-period {
+  opacity: 0.7;
+}
