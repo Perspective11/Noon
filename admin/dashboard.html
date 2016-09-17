@@ -182,7 +182,7 @@
     </div>
     <div id="dashboard-content" class="col-md-10">
         <div class="dashboard-container">
-            <div class="col-lg-3 col-md-4 col-sm-6  statbox-container">
+            <div class="col-lg-3 col-md-6 col-sm-6  statbox-container">
                 <div class="alert alert-info statbox">
                     <i class="fa fa-book"></i>
                     <span class="stat-number">523</span>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6  statbox-container">
+            <div class="col-lg-3 col-md-6 col-sm-6  statbox-container">
                 <div class="alert alert-info statbox">
                     <i class="fa fa-line-chart"></i>
                     <span class="stat-number">527203</span>
@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6  statbox-container">
+            <div class="col-lg-3 col-md-6 col-sm-6  statbox-container">
                 <div class="alert alert-info statbox">
                     <i class="fa fa-thumbs-o-up"></i>
                     <span class="stat-number">3472</span>
@@ -215,7 +215,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6  statbox-container">
+            <div class="col-lg-3 col-md-6 col-sm-6  statbox-container">
                 <div class="alert alert-info statbox">
                     <i class="fa fa-users"></i>
                     <span class="stat-number">11249</span>
@@ -226,43 +226,336 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="panel ">
+            <div class="clearfix"></div>
+            <div class="col-md-6 panel-container">
+                <div class="panel panel-primary feed-panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Panel primary</h3>
+                        <h3 class="panel-title">Admin Feed</h3>
+                        <div class="btn-group pull-right">
+                            <a href="#" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        Panel content
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-bell-o"></i></span>
+                            <div>You have some pending notifications about the site</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-user"></i></span>
+                            <div>A new instructor have joined Noon</div>
+                            <a href="#" class="label label-primary action-label hidden">Welcome Him</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-lock"></i></span>
+                            <div>There are some security concerns that requires you attention</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">2 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-exclamation"></i></span>
+                            <div>An instructor is waiting for your permission to submit a course</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-check-square-o"></i></span>
+                            <div>Plase take time to review these tasks</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-exclamation-triangle"></i></span>
+                            <div>The server load is getting bigger, plase take action</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-primary icon-label"><i class="fa fa-book"></i></span>
+                            <div>A new course have been uploaded</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-trophy"></i></span>
+                            <div>A new Milestone. 11,000 user reached</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-default icon-label"><i class="fa fa-bullhorn"></i></span>
+                            <div>An admin just posted an announcement</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-envelope"></i></span>
+                            <div>A Message was sent to the admins</div>
+                            <a href="#" class="label label-primary action-label">Have a look</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                    </ul>
+                    <div class="fadedScroller_fade">
+                        <button class="btn btn-primary">View All</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="panel ">
+            <div class="col-md-6 panel-container">
+                <div class="panel panel-primary feed-panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Panel primary</h3>
+                        <h3 class="panel-title">Admin Feed</h3>
+                        <div class="btn-group pull-right">
+                            <a href="#" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        Panel content
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-bell-o"></i></span>
+                            <div>You have some pending notifications about the site</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-user"></i></span>
+                            <div>A new instructor have joined Noon</div>
+                            <a href="#" class="label label-primary action-label hidden">Welcome Him</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-lock"></i></span>
+                            <div>There are some security concerns that requires you attention</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">2 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-exclamation"></i></span>
+                            <div>An instructor is waiting for your permission to submit a course</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-check-square-o"></i></span>
+                            <div>Plase take time to review these tasks</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-exclamation-triangle"></i></span>
+                            <div>The server load is getting bigger, plase take action</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-primary icon-label"><i class="fa fa-book"></i></span>
+                            <div>A new course have been uploaded</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-trophy"></i></span>
+                            <div>A new Milestone. 11,000 user reached</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-default icon-label"><i class="fa fa-bullhorn"></i></span>
+                            <div>An admin just posted an announcement</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-envelope"></i></span>
+                            <div>A Message was sent to the admins</div>
+                            <a href="#" class="label label-primary action-label">Have a look</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                    </ul>
+                    <div class="fadedScroller_fade">
+                        <button class="btn btn-primary">View All</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="panel ">
+            <div class="col-md-6 panel-container">
+                <div class="panel panel-primary feed-panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Panel primary</h3>
+                        <h3 class="panel-title">Admin Feed</h3>
+                        <div class="btn-group pull-right">
+                            <a href="#" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        Panel content
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-bell-o"></i></span>
+                            <div>You have some pending notifications about the site</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-user"></i></span>
+                            <div>A new instructor have joined Noon</div>
+                            <a href="#" class="label label-primary action-label hidden">Welcome Him</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-lock"></i></span>
+                            <div>There are some security concerns that requires you attention</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">2 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-exclamation"></i></span>
+                            <div>An instructor is waiting for your permission to submit a course</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-check-square-o"></i></span>
+                            <div>Plase take time to review these tasks</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-exclamation-triangle"></i></span>
+                            <div>The server load is getting bigger, plase take action</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-primary icon-label"><i class="fa fa-book"></i></span>
+                            <div>A new course have been uploaded</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-trophy"></i></span>
+                            <div>A new Milestone. 11,000 user reached</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-default icon-label"><i class="fa fa-bullhorn"></i></span>
+                            <div>An admin just posted an announcement</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-envelope"></i></span>
+                            <div>A Message was sent to the admins</div>
+                            <a href="#" class="label label-primary action-label">Have a look</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                    </ul>
+                    <div class="fadedScroller_fade">
+                        <button class="btn btn-primary">View All</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="panel ">
+            <div class="col-md-6 panel-container">
+                <div class="panel panel-primary feed-panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Panel primary</h3>
+                        <h3 class="panel-title">Admin Feed</h3>
+                        <div class="btn-group pull-right">
+                            <a href="#" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        Panel content
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-bell-o"></i></span>
+                            <div>You have some pending notifications about the site</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-user"></i></span>
+                            <div>A new instructor have joined Noon</div>
+                            <a href="#" class="label label-primary action-label hidden">Welcome Him</a>
+                            <span class="text-muted feed-time">just now</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-lock"></i></span>
+                            <div>There are some security concerns that requires you attention</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">2 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-exclamation"></i></span>
+                            <div>An instructor is waiting for your permission to submit a course</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-info icon-label"><i class="fa fa-check-square-o"></i></span>
+                            <div>Plase take time to review these tasks</div>
+                            <a href="#" class="label label-warning action-label">Take me</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-danger icon-label"><i class="fa fa-exclamation-triangle"></i></span>
+                            <div>The server load is getting bigger, plase take action</div>
+                            <a href="#" class="label label-info action-label">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-primary icon-label"><i class="fa fa-book"></i></span>
+                            <div>A new course have been uploaded</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-success icon-label"><i class="fa fa-trophy"></i></span>
+                            <div>A new Milestone. 11,000 user reached</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-default icon-label"><i class="fa fa-bullhorn"></i></span>
+                            <div>An admin just posted an announcement</div>
+                            <a href="#" class="label label-info action-label hidden">Take Action</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="label label-warning icon-label"><i class="fa fa-envelope"></i></span>
+                            <div>A Message was sent to the admins</div>
+                            <a href="#" class="label label-primary action-label">Have a look</a>
+                            <span class="text-muted feed-time">20 mins</span>
+                        </li>
+                    </ul>
+                    <div class="fadedScroller_fade">
+                        <button class="btn btn-primary">View All</button>
                     </div>
                 </div>
             </div>

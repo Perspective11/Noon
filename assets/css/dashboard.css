@@ -38,8 +38,9 @@
 
 #dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change {
   clear: both;
-  display: block;
-  float: right;
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
 }
 
 #dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change .stat-percentage {
@@ -53,4 +54,64 @@
 
 #dashboard-content > div.dashboard-container .statbox-container .statbox .stat-change .stat-period {
   opacity: 0.7;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .panel-heading h3 {
+  display: inline-block;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .panel-heading .btn-group {
+  position: relative;
+  top: -5px;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item {
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item > * {
+  display: inline-block;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item .icon-label {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
+  top: 50%;
+  left: 5px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item .icon-label .fa {
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item .action-label {
+  padding: 5px;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .list-group .list-group-item .feed-time {
+  position: absolute;
+  right: 10px;
+}
+
+#dashboard-content > div.dashboard-container .panel-container .panel .fadedScroller_fade {
+  padding: 10px;
+  position: relative;
 }
