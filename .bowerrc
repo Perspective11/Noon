@@ -1,3 +1,6 @@
 {
-  "directory": "assets/packages/"
+  "directory": "assets/packages/",
+  "resolvers": [
+    "bower-npm-resolver"
+  ]
 }
