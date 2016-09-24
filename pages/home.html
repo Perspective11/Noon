@@ -9,9 +9,8 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../assets/packages/normalize-css/normalize.css" rel="stylesheet" type="text/css"/>
         <link href="../assets/packages/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../assets/packages/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../assets/packages/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <!--<link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>-->
         <style>
             body{
@@ -81,7 +80,7 @@ and open the template in the editor.
             .course-upper{
                 position: relative;
                 background: black;
-                height: 156px; 
+                height: 156px;
             }
             .course-upper img{
                 width: 100%;
@@ -443,12 +442,12 @@ and open the template in the editor.
             $(document).ready(function () {
                 $('[data-toggle="tooltip"]').tooltip();
                 $('.sidebar li').mouseover(function(){
-                   $(this).children('.sub-dropdown').css({"display": "block", "top": "0", "right": -$(this).width()+"px"}) 
+                   $(this).children('.sub-dropdown').css({"display": "block", "top": "0", "right": -$(this).width()+"px"})
                 });
                 $('.sidebar li').mouseleave(function(){
-                   $(this).children('.sub-dropdown').css({"display": "none", "top": "0", "right": -$(this).width()+"px"}) 
+                   $(this).children('.sub-dropdown').css({"display": "none", "top": "0", "right": -$(this).width()+"px"})
                 });
-                
+
             });
         </script>
     </body>

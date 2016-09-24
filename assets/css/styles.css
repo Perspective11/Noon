@@ -3,13 +3,6 @@ body {
     color: black;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    color: black;
-}
 
 ul {
   margin: 0;
@@ -140,7 +133,7 @@ a:hover{
     cursor: pointer;
 }
 .navbar-right li{
-    padding: 10px 30px;
+    /*padding: 10px 30px;*/
 }
 .dropdown-menu{
     width: fit-content;
