@@ -2,6 +2,15 @@ body {
     background: #F4F4F4;
     color: black;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: black;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -82,3 +91,79 @@ ul {
 }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
+
+
+
+.input-group{
+    width: 100%;
+}
+.row{
+    margin: 0;
+}
+#nav{
+    color: black;
+    background: white;
+}
+#sidebar{
+    background: white;
+    color: black;
+}
+#sidebar h5{
+    color: black;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 0;
+}
+#sidebar li{
+    list-style: none;
+    padding: 10px;
+}
+#sidebar li:hover{
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+span.fa{
+    font-size: 18px;
+}
+.search{
+    width: 50%;
+    display: inline-block
+}
+.caret{
+height: 100%;
+}
+.no-spaces{
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    cursor: pointer;
+}
+.navbar-right li{
+    padding: 10px 30px;
+}
+.dropdown-menu{
+    width: fit-content;
+    padding: 5px;
+}
+.content{
+    background: white;
+    color: black;
+    padding: 40px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+li{
+    color: black;
+}
+p .fa{
+    font-size: 14px;
+}

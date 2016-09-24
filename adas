@@ -1,0 +1,350 @@
+[33mcommit b62ec60912d4db1711e160864bfd98ec2e4eb7da[m
+Merge: 8321dfa a6e0654
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 24 10:40:21 2016 +0300
+
+    Merge branch 'master' of https://github.com/rashadshaobi/Noon into rashadshaobi-master
+
+[33mcommit 8321dfa205bb298ce140e3046cf03d414c5a45f9[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 21 23:01:43 2016 +0300
+
+    Added hover effect to discussion list
+
+[33mcommit a6e0654b649d2a849f026db3a9616b5141a10dd7[m
+Author: rashadshaobi <rshaobi@gmail.com>
+Date:   Sun Sep 18 14:01:53 2016 -0700
+
+    After eid commit
+
+[33mcommit 610dadb9a863c210833eae8b284897daa5f1eff3[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sun Sep 18 00:30:59 2016 +0300
+
+    Added two demo Charts
+
+[33mcommit 5475bbbb64859d3a331246c357b952cc963edfdc[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 17 23:41:53 2016 +0300
+
+    Installed chartjs and momentjs
+
+[33mcommit 94674dfe2eb68417e0e0c3cfebe5e255ce002293[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 17 23:28:45 2016 +0300
+
+    Finished the admin tasks panel
+
+[33mcommit f69e8faad5a68ba7120c1a7d5cf59d70899427ae[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 17 21:41:46 2016 +0300
+
+    Finished the admin feed panel
+
+[33mcommit 6adbf305380859405a49d23ef12cf0426bd26973[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 17 16:12:41 2016 +0300
+
+    Added the dashboard with stats
+
+[33mcommit db26cad6a40fde4a2494f900aca81d3b2104090b[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 17 01:45:18 2016 +0300
+
+    Fixed Accordion javascript and most styling
+
+[33mcommit dd79e3b6aabf9a1efa012c675c9023e834869c78[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 16 23:57:04 2016 +0300
+
+    Fixed the collapse buttons
+
+[33mcommit 493c44a654b6227307daaa2ffdc3d31654653929[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 16 23:08:52 2016 +0300
+
+    added discussion thread with the back button
+
+[33mcommit 4f16ec628673405fb51db48eaed7d7fd06231afa[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 16 22:03:37 2016 +0300
+
+    Completed the announcements tab
+
+[33mcommit a50e57def1a3a4e9c6f4f9c763ed9fcfed48b328[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 16 00:32:06 2016 +0300
+
+    Discussion part done
+
+[33mcommit cfe5b008bdf7841f378caca64a64c61709678e15[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Thu Sep 15 15:04:14 2016 +0300
+
+    finished working with lecture list without javascript, also need more css
+
+[33mcommit 3cdb7d9cc0d233a2c40274469fb485d834e0f496[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 14 12:44:16 2016 +0300
+
+    added jQuery-ui
+
+[33mcommit 3891cfce97ae510f6db86178b74f66279f338441[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 14 12:14:28 2016 +0300
+
+    started working with the lecture tab
+
+[33mcommit 571f0225e5f1358889490dea861eee8243e715c0[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 14 01:39:40 2016 +0300
+
+    Styled the overview tab
+
+[33mcommit 6569808a13bf6bd6cf4cb389a681f4017b4b7f45[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 13 00:07:16 2016 +0300
+
+    starting tabs with learn.html
+
+[33mcommit ce64d81d65770d256bf673194b7a0204a9205f25[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Mon Sep 12 00:40:18 2016 +0300
+
+    Course info styling
+    navbar tweaking
+
+[33mcommit b6ca007255e1ace3132d63d7693bfa33a22b6ff5[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sun Sep 11 17:07:55 2016 +0300
+
+    added a whole bunch of things
+
+[33mcommit f87f571ba19b98c938130f47b9c59ac13d6641a1[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 10 19:50:24 2016 +0300
+
+    Updated .gitignore
+
+[33mcommit f4577f0d22abd4adb62d9ea909b39dc0063732ba[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 10 01:04:53 2016 +0300
+
+    Some more tweaks
+
+[33mcommit e9e960c35c6e3288cdb01df3d3fbce0dcd0d9be1[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 10 00:54:03 2016 +0300
+
+    Solve conflicts
+
+[33mcommit 535ceff3a84f0e07f858fbf41106b665f0c59d29[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 10 00:40:45 2016 +0300
+
+    Tweaks
+
+[33mcommit 186619e9d5e9610e5d08bcee6003cf82bc1f9209[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sat Sep 10 00:04:07 2016 +0300
+
+    Organizing and tweaking
+
+[33mcommit 5d2f29e632feafae367efab24dd4beca6ab6fe92[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 9 21:46:38 2016 +0300
+
+    Delete gulpfile.js
+
+[33mcommit 182e70d4e593d3eda21ddcbff9aa1a276848d93e[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Fri Sep 9 21:46:13 2016 +0300
+
+    Update .gitignore
+
+[33mcommit 94379adf07cd6c1f3bf3e7b162b29e2d5a35eaf3[m
+Author: rashadshaobi <rshaobi@gmail.com>
+Date:   Thu Sep 8 16:39:02 2016 -0700
+
+    rashad first commit
+
+[33mcommit d93e953b6fcc2513782ff88541f30e781bd4e1ec[m
+Merge: b7cf63a 3e715ba
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Thu Sep 8 13:28:22 2016 +0300
+
+    Merge pull request #7 from nawalmana/master
+    
+    Editing mange user
+
+[33mcommit 3e715bab17e5812a2938bc6b933474355bf81fcc[m
+Author: nawalmana <1223fgfg@gmail.com>
+Date:   Thu Sep 8 13:17:40 2016 +0300
+
+    editing mange user
+
+[33mcommit fd47a348ab57c76aa328a6074aad30ca8fcb72ee[m
+Merge: b9c6bef b7cf63a
+Author: nawalmana <1223fgfg@gmail.com>
+Date:   Thu Sep 8 12:34:05 2016 +0300
+
+    Merge remote-tracking branch 'refs/remotes/Perspective11/master'
+
+[33mcommit b7cf63a7c45618e1d023e571f207c74fdc9b59a1[m
+Merge: 765b153 b9c6bef
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 7 15:09:41 2016 +0300
+
+    Merge pull request #5 from nawalmana/master
+    
+    First merge by nawal
+
+[33mcommit b9c6bef102a05a693ae7d7ddb37574e518b1c7b2[m
+Author: nawalmana <1223fgfg@gmail.com>
+Date:   Wed Sep 7 15:07:14 2016 +0300
+
+    First Commit by nawal
+
+[33mcommit 21dc68ce8311749c0b575e8b606476d87fd32010[m
+Merge: 23f7056 4711352
+Author: nawalmana <1223fgfg@gmail.com>
+Date:   Wed Sep 7 15:05:35 2016 +0300
+
+    Merge remote-tracking branch 'refs/remotes/Perspective11/master'
+
+[33mcommit 765b153256ccab878184e059a8782df8741fcefe[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 7 15:00:46 2016 +0300
+
+    Fixed admin/index.html
+
+[33mcommit 4711352868c5763369e782342b8b20ba03f61c1e[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Wed Sep 7 09:42:13 2016 +0300
+
+    Added a link to Admin/index.html
+
+[33mcommit c9bfa63bdcb5777c78c08db68000e4d39dcff570[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 22:18:09 2016 +0300
+
+    Organize the admin/index.html and styles.css
+
+[33mcommit 7f944960b5f4ddec82833b661a104df28a63122e[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 21:49:37 2016 +0300
+
+    Removed normalize and materialize
+
+[33mcommit f27036b0da266b84a0f465c87d32c752e4b71dc0[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 19:59:42 2016 +0300
+
+    admin/index modifications
+
+[33mcommit 20863baf2f4888c8ccd1175571fc359ccd80b945[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 19:57:47 2016 +0300
+
+    Added nawal admin profile page
+    
+    added galary and profile images,
+    prettified the code
+
+[33mcommit 27967a17ba9ab175c94709307d0de167d3acb75c[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 16:40:11 2016 +0300
+
+    Added normalize.css
+
+[33mcommit 13c4e95c90620559db26d8591fb6a5a34d7cdebd[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 16:26:14 2016 +0300
+
+    Fixed link references
+
+[33mcommit 860430094948d86b1ff925a95c315484682128ba[m
+Merge: 264b377 dac9521
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 16:17:32 2016 +0300
+
+    Merge pull request #2 from ahishamali/master
+    
+    reslove the problem of the css link with admin index page
+
+[33mcommit dac9521ee166e72a512c816fb6d3cd21be9df277[m
+Author: ahishamali <ahishamali10@gmail.com>
+Date:   Tue Sep 6 16:06:01 2016 +0300
+
+    reslove the problem of the css link with admin index page
+
+[33mcommit 264b377dcd642ff8fa7fee033230436b978f4bd5[m
+Merge: 4cdad64 35667dc
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 15:44:05 2016 +0300
+
+    Merge pull request #1 from ahishamali/master
+    
+    Master
+
+[33mcommit 35667dc3378e631643698ac7bb8aa47c61b659d0[m
+Author: ahishamali <ahishamali10@gmail.com>
+Date:   Tue Sep 6 15:36:23 2016 +0300
+
+    added admin HTML and Css
+
+[33mcommit 4cdad6497249402192b7d5470d6f4ec75e75569e[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Tue Sep 6 14:43:06 2016 +0300
+
+    Edited the ReadMe.file & Added images
+    
+    A full detailed description in about the whole project and it's
+    components.
+
+[33mcommit 022287f3518f1bd11a2b56f33e014d7fefc97379[m
+Author: ahishamali <ahishamali10@gmail.com>
+Date:   Tue Sep 6 12:36:00 2016 +0300
+
+    changing
+    
+    changing the bootstrap to the paper style
+    others are for the netbeans IDE
+
+[33mcommit e2990cb49ed45376f98d3634469248c302ef21d8[m
+Author: ahishamali <ahishamali10@gmail.com>
+Date:   Tue Sep 6 12:27:47 2016 +0300
+
+    adding the index page for the admin panel
+
+[33mcommit 23f70565120ce0451c8d1fe773ee906d163ec796[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Mon Sep 5 22:24:37 2016 +0300
+
+    Modified the structure
+    
+    added a styles.css file for all styles
+    added scripts.js for all scripts
+    added bootswatch's bootstrap.css instead of the original bootstrap.css
+
+[33mcommit 8951380ae1271fab47e5575a5bedcd3cb230da0c[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Mon Sep 5 16:50:42 2016 +0300
+
+    Setup the Environment
+    
+    Set the folder structure
+    Added npm
+    Added bower
+
+[33mcommit 6283bc6ca0f6c7de95f6fdfa337f9e1a9abaf2d8[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Mon Sep 5 11:58:54 2016 +0300
+
+    Create README.md
+
+[33mcommit 26f35ddc13ca328c779202ebbb901e2ad5f8d14b[m
+Author: Aiman N <proprogrammer11@gmail.com>
+Date:   Sun Sep 4 23:08:32 2016 +0300
+
+    Npm Install
