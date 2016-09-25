@@ -1,17 +1,13 @@
-body {
+/*body {
     background: #F4F4F4;
     color: black;
-}
-
-
+}*/
 ul {
   margin: 0;
   padding: 0;
 }
 
-.input-group {
-    width: 100%;
-}
+
 
 #nav {
   /*color: black;
@@ -39,11 +35,7 @@ ul {
     cursor: pointer;
 }
 
-.caret {
-    /*
-    height: 100%;
-    margin-top: 80px;*/
-}
+
 
 #content {
   margin-top: 30px;
@@ -84,15 +76,6 @@ ul {
 }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
-
-
-.input-group{
-    width: 100%;
-}
-.row{
-    margin: 0;
-}
 #nav{
     color: black;
     background: white;
@@ -115,16 +98,14 @@ ul {
     background: rgba(0,0,0,0.1);
     cursor: pointer;
 }
-span.fa{
-    font-size: 18px;
-}
+// span.fa{
+//     font-size: 18px;
+// }
 .search{
     width: 50%;
     display: inline-block
 }
-.caret{
-height: 100%;
-}
+
 .no-spaces{
     padding: 0;
     margin: 0;
@@ -132,13 +113,7 @@ height: 100%;
 a:hover{
     cursor: pointer;
 }
-.navbar-right li{
-    /*padding: 10px 30px;*/
-}
-.dropdown-menu{
-    width: fit-content;
-    padding: 5px;
-}
+
 .content{
     background: white;
     color: black;
@@ -153,9 +128,6 @@ a:hover{
     color: black;
     text-align: center;
     font-family: cursive;
-}
-li{
-    color: black;
 }
 p .fa{
     font-size: 14px;
