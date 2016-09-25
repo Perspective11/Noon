@@ -1,0 +1,13 @@
+.bt{
+background-color: orange;
+}
+.bt:hover{
+background-color:darkorange;
+}
+p.para{
+  line-height: 100%;
+  font-size:16px;
+}
+.{
+  background-color: yellow;
+}
